@@ -1,0 +1,20 @@
+.nav {
+    color: white;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fas {
+}
+.search {
+    background-color: rgb(6, 86, 179);
+    padding: 18px;
+    font-size: 15px;
+    color: white;
+    border-radius: 3px;
+    
+}
+.search :hover{
+    border:rgb(84, 183, 223);
+
+}
