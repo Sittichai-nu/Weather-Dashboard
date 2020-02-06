@@ -4,17 +4,29 @@
     margin-left: 10%;
     margin-right: 10%;
 }
-.fas {
+.colt {
+    margin-left: 50px;
+    margin-right: -20%;
 }
-.search {
+#city-input {
+    padding: 12px;
+}
+#search-city {
     background-color: rgb(6, 86, 179);
-    padding: 18px;
+    padding: 15px;
     font-size: 15px;
     color: white;
-    border-radius: 3px;
-    
+    border-radius: 3px; 
+     
 }
-.search :hover{
-    border:rgb(84, 183, 223);
+.colc {
+    border: inset;
+    width: 60%;
+    border-right: aliceblue;
+    margin-top: 20px;
+    margin-left: 10%;
 
+}
+.tr {
+    border: ridge;
 }
