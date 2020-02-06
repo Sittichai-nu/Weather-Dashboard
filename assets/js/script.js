@@ -1,4 +1,4 @@
-        var cities = ["Houston", "New York", "Denver", "Las Vega", "Los Angeles", "Chicago", "Seattle", "Moscow"];
+        var cities = ["Houston", "New York", "Denver", "Las Vegas", "Los Angeles", "Chicago", "Seattle", "Moscow"];
         
          
         function displayCityInfo() {
