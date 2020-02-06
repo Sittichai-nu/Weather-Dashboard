@@ -14,7 +14,7 @@
                 $(".temp").text("Temperature: " +response.main.temp + " F");
                 $(".humidity").text("Humidity: " + response.main.humidity + " %");
                 $(".wind").text("Wind Speed: " + response.wind.speed + " MPH");
-                $(".").text(response.name)
+                $(".td").text(response.name)
 
                 var tempF = (response.main.temp - 273.15) * 1.80 + 32;
                  $(".tempF").text("Temperature (Kelvin) " + tempF);
