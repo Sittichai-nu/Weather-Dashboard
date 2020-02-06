@@ -3,13 +3,15 @@
          
         function displayCityInfo() {
             var city = $(this).attr("data-name");
-            var queryURL = "http://api.openweathermap.org/data/2.5/weather?q="+ city + "&APPID=8796682f89508d38c2a35ab159e08782";
+            var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=8796682f89508d38c2a35ab159e08782";
 
             $.ajax({
                 url: queryURL,
                 method: "GET"
               }).then(function(response) {
+                $(".acity").text(JSON.stringify(response));
                 console.log(response);
+
                 $(".acity").html("<h1>" + response.name + "");
                 $(".temp").text("Temperature: " +response.main.temp + " F");
                 $(".humidity").text("Humidity: " + response.main.humidity + " %");
